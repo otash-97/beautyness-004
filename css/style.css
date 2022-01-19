@@ -1,0 +1,130 @@
+
+
+
+
+*:focus{
+  outline: red dotted 3px;
+  outline-offset: 3px;
+}
+
+.container-fluid{
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background-color: #fff;
+}
+
+.container{
+  max-width: 1240;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+#navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  table-layout: 20px;
+}
+.navbar-logo-list{
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.navbar-logo-item-link{
+  text-decoration: none;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #141414;
+}
+.navbar-logo-item-link:first-child{
+  margin-right: 30px;
+}
+.navbar-logo-item-link-img{
+  font-size: 21px;
+  margin-right: 10px;
+  transform: rotate(-45deg);
+  color: #7A9CA5;
+  transition: color 0.4s ease;
+}
+.navbar-list-item-link-img:hover{
+  color: #5C8692;
+}
+.navbar-call-link{
+  transition: color 0.4s ease;
+}
+.navbar-call-link:hover{
+  color: #5C8692;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+}
+.navbar-list{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar-list-item{
+  margin-right: 38px;
+}
+.navbar-list-item:nth-child(3){
+  margin-right: 50px;
+}
+.navbar-list-item:nth-child(4){
+  margin-right: 20px;
+}
+.navbar-list-item:nth-child(5){
+  margin-right: 20px;
+}
+.navbar-list-item:nth-child(6){
+  margin-right: 20px;
+}
+.navbar-list-item:last-child{
+  margin-right: 20px;
+}
+.navbar-list-item-link{
+  text-decoration: none;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 25px;
+  color: #141414;
+  transition: color 0.4s ease;
+}
+.navbar-list-item-link:hover{
+  color: #5C8692;
+}
+.navbar-button-link{
+  text-decoration: none;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #fff;
+  background: #5C8692;
+  border: 2px solid #5C8692;
+  box-sizing: border-box;
+  border-radius: 0px;
+  padding: 19px 30px;
+  transition: color 0.4s ease ;
+  transition: background-color 0.4s ease;
+}
+.navbar-button-link:hover{
+  color: #141414;
+  background-color: #fff;
+}
+.button-reservation-call{
+  margin-right: 10px;
+}
