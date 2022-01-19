@@ -1,4 +1,9 @@
 
+body{
+  font-family: Monrope;
+  font-weight: 400;
+  font-style: normal;
+}
 
 
 
@@ -15,16 +20,17 @@
 }
 
 .container{
-  max-width: 1240;
-  margin: 0 auto;
+  max-width: 1240px;
+  margin:0 auto;
   padding: 0 20px;
+  box-sizing: border-box;
 }
 #navbar{
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 20px;
-  table-layout: 20px;
+  padding-bottom: 20px;
 }
 .navbar-logo-list{
   display: flex;
@@ -127,4 +133,196 @@
 }
 .button-reservation-call{
   margin-right: 10px;
+}
+
+
+
+/* landing-page */
+#landing-page{
+  background-color: #EBF3F5;
+
+}
+
+
+
+.landing-page{
+  display: flex;
+}
+
+
+.landing-page-info{
+  margin-top: 220px;
+  margin-bottom: 220px;
+  position: relative;
+}
+.landing-page-info-title{
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #5C8692;
+  margin: 0;
+  padding: 0;
+}
+
+.landing-page-info-heading{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 71px;
+  letter-spacing: 0.66px;
+  color: #141414;
+  margin: 0;
+  padding: 0;
+}
+.landing-page-info-text{
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  color: #555555;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 26px;
+}
+
+.landing-page-info-button-link{
+  display: inline-block;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: 1.56px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 18px 32px;
+  background: #5C8692;
+  border: 2px solid #5C8692;
+  box-sizing: border-box;
+  border-radius: 0px;
+  transition: color 0.4s ease;
+  transition: background-color 0.4s ease;
+  text-decoration: none;
+  margin: 0;
+}
+.landing-page-info-button-link:hover{
+  color: #141414;
+  background-color: #fff;
+}
+.landing-page-photo{
+  position: relative;
+
+}
+.span{
+  border: 10px solid #5C8692;
+  box-sizing: border-box;
+  border-radius: 0px;
+  width: 592px;
+  height: 645px;
+  position: absolute;
+  top: 120px;
+  left: 141px;
+  border-left: 0;
+}
+.span-top{
+  border-left: 10px solid #5C8692;
+  box-sizing: border-box;
+  border-radius: 0px;
+  width: 592px;
+  height: 50px;
+  position: absolute;
+  top: 120px;
+  left: 131px;
+}
+.span-bottom{
+  border-left: 10px solid #5C8692;
+  box-sizing: border-box;
+  border-radius: 0px;
+  width: 592px;
+  height: 50px;
+  position: absolute;
+  top: 715px;
+  left: 131px;
+}
+.landing-page-photo-img{
+  margin-left: 100px;
+  position: absolute;
+  top: 170px;
+
+}
+
+
+/* services */
+
+
+.service{
+  display: flex;
+  margin: 0;
+  padding-bottom: 110px;
+  padding-top: 100px;
+}
+.service img{
+  margin-bottom: 16px;
+}
+.massage{
+  margin-right: 30px;
+}
+
+.hair-buity{
+  margin-right: 30px;
+}
+.services-heading{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: 0.312px;
+  color: #141414;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 13px;
+}
+.services-text{
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 31px;
+  letter-spacing: 0.36px;
+  color: #555555;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 17px;
+
+}
+.services-button-link{
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 1.56px;
+  text-transform: uppercase;
+  color: #141414;
+  text-decoration: none;
+  padding: 18px 32px;
+  border: 2px solid #5C8692;
+  box-sizing: border-box;
+  border-radius: 0px;
+  display: inline-block;
+  transition: color 0.4s ease;
+  transition: background-color 0.4s ease;
+}
+.services-button-link:hover{
+  color: #fff;
+  background: #5C8692;
 }
